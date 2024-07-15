@@ -2901,7 +2901,7 @@ pragma solidity ^0.8.19;
  *    `--'---'  |   :   /    `--'---'
  *              |   | ,'
  *              `----'
- * @title Spoiled Banana Society Season 1 Draft Token ERC-721 Smart Contract
+ * @title Spoiled Banana Society Season 2 Draft Token ERC-721 Smart Contract
  */
 
 contract SBSDraftTokenSeasonTwo is ERC721, Ownable, Pausable, ReentrancyGuard {
