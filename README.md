@@ -11,3 +11,6 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+
+BASE_URI = https://us-central1-sbs-prod-env.cloudfunctions.net/draft-token-metadata-server
