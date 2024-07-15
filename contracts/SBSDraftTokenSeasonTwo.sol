@@ -21,7 +21,7 @@ import "hardhat/console.sol";
  *    `--'---'  |   :   /    `--'---'
  *              |   | ,'
  *              `----'
- * @title Spoiled Banana Society Season 1 Draft Token ERC-721 Smart Contract
+ * @title Spoiled Banana Society Season 2 Draft Token ERC-721 Smart Contract
  */
 
 contract SBSDraftTokenSeasonTwo is ERC721, Ownable, Pausable, ReentrancyGuard {
@@ -29,7 +29,7 @@ contract SBSDraftTokenSeasonTwo is ERC721, Ownable, Pausable, ReentrancyGuard {
     string public SPOILEDBANANASOCIETY_PROVENANCE = "";
     string private baseURI;
     uint256 public constant RESERVED_TOKENS = 20;
-    uint256 public constant TOKEN_PRICE = 10000000000000; // 0.00001 ETH
+    uint256 public constant TOKEN_PRICE = 10000000000000000; // 0.01 ETH
     uint256 public constant MAX_TOKENS_PURCHASE = 20;
     uint256 public numTokensMinted = 0;
     uint256 public numTokensBurned = 0;
